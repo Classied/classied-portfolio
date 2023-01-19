@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Classie Portfolio | Welcome</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,17 +15,232 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
   <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/portfolio-main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Lexend+Tera&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+
+    <div class="content-wrapper">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" id="contact-link">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <div class="home-title">
+        <h1>Hi There, I'm Classie Davidson.</h1>
+        <br>
+        <br>
+        <p></p><span class="welcome">Welcome to my portfolio!</span></p>
+
+        <h2>I'm a Front End Web Developer located in Houston, Texas who
+          creates interactive websites that are visually engaging and user
+          friendly.
+        </h2>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <article class="portfolio">
+      <section id="projects">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header">Projects</h3>
+
+          <div class="project-wrapper">
+
+            <div class="individual-project">
+              <figure>
+                <a href="" target="_blank"><img src="img/rogue-pickings.PNG" alt="Rogue Pickings Project"></a>
+              </figure>
+              <h4>Unplugged</h4>
+
+              <p class="project-description">A 3-page responsive website from a design comp that adapts to mobile,
+                tablet, and desktop screens.
+              </p>
+
+              <p><span>Skills: </span>
+                HTML, CSS, Responsive Typography, Flexbox, Media Queries
+              </p>
+
+              <p><span>Tools: </span>
+                Github Pages, Chrome DevTools, Adobe Photoshop, VSCode Editor
+              </p>
+              <a class="project-link" href="" target="_blank">live page</a>
+
+            </div>
+
+            <div class="individual-project">
+              <figure>
+                <a href="" target="_blank"><img src="img/rogue-pickings.PNG" alt="Rogue Pickings Project"></a>
+              </figure>
+              <h4>Github Gallery Repo</h4>
+              <p class="project-description">Website with links to available Github repositories and descriptions </p>
+              <p><span>Skills: </span>
+                JavaScript
+              </p>
+              <p><span>Tools: </span>
+                REST API, Github Pages
+              </p>
+              <a class="project-link" href="" target="_blank">live page</a>
+
+            </div>
+            <div class="individual-project">
+              <figure>
+                <a href="https://ewt3kp.csb.app/" target="_blank"><img src="img/super-sticky-notes.PNG" alt="Custom Sticky Note UI Project"></a>
+              </figure>
+              <h4>Super Sticky Notes</h4>
+              <p class="project-description">An interactive app that will let users create “sticky notes” on their
+                computer to keep track of to-do items.</p>
+              <p><span>Skills: </span>
+                React, JSX, Components
+              </p>
+              <p><span>Tools: </span>
+                CodeSandBox, Props, State
+              </p>
+              <a class="project-link" href="https://ewt3kp.csb.app/" target="_blank">live page</a>
+
+            </div>
+
+            <div class="individual-project">
+              <figure>
+                <a href="https://classied.github.io/rogue-pickings/" target="_blank"><img src="img/rogue-pickings.PNG" alt="Rogue Pickings Project"></a>
+              </figure>
+              <h4>Rogue Pickings</h4>
+              <p class="project-description">Responsive website from design comp that adapts to any device size.
+              </p>
+              <p><span>Skills: </span>
+                HTML & CSS, Media Queries, Flexbox
+              </p>
+              <p><span>Tools: </span>
+                Adobe Photoshop, Github Pages, VSCode Editor, Chrome DevTools
+              </p>
+              <a class="project-link" href="https://classied.github.io/rogue-pickings/" target="_blank">live page</a>
+
+            </div>
+
+            <div class="individual-project">
+              <figure>
+                <a href="https://classied.github.io/guess-the-word/" target="_blank"><img src="img/guess-the-word.PNG" alt="Guess The Word Game"></a>
+              </figure>
+              <h4>Guess the Word Game</h4>
+              <p class="project-description">Single website hosting a games that chooses a random word for users to
+                guess.</p>
+              <p><span>Skills: </span>
+                Javascript
+              </p>
+              <p><span>Tools: </span>
+                Github Pages, JSON
+              </p>
+              <a class="project-link" href="https://classied.github.io/guess-the-word/" target="_blank">live page</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="content-wrapper">
+          <h3 class="skills-header">Skills</h3>
+          <h4>Developer Skills</h4>
+          <div class="skills-wrapper">
+            <p class="skill">HTML and CSS</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">React</p>
+            <p class="skill">Git and Github</p>
+            <p class="skill">Responsive Web Development</p>
+            <p class="skill">JSON and APIs</p>
+          </div>
+
+          <h4>Tech Tools</h4>
+          <div class="tool-wrapper">
+            <p class="tool">Chrome DevTools</p>
+            <p class="tool">Visual Studio Code</p>
+            <p class="tool">CodeSandBox</p>
+            <p class="tool">Adobe Creative Suite</p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <section id="about">
+      <div class="content-wrapper">
+        <div class="about-content-wrapper">
+          <figure>
+            <img src="" alt="" id="profile-image">
+          </figure>
+
+          <div class="about-info">
+            <h3> Hi, I'm Classie Davidson.</h3>
+
+            <h4>I'm a Front End Web Developer located in Houston, Texas who creates
+              interactive websites that are visually engaging and user friendly.
+            </h4>
+            <p class="about-text">I took interest in becoming a web developer once I realized a career
+              in tech provided more freedom and opportunity to greatly advance my
+              quality of life. Compared to other fields of work, I love that development
+              encourages creativity, collaboration, and critical independent thinking.
+              The work required isn't mindless and redundant but instead it's meaningful,
+              stimulating, and fun! Lastly, I'm a sucker for vivid storylines and beautiful visuals so when I'm
+              not coding I can be found getting lost in the wonderful world of Anime and
+              online video games.
+            </p>
+            <p>
+              <span>Nice to virtually meet you :) I can't wait to join your team!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3>Let's Connect</h3>
+
+      <div class="content-wrapper">
+
+        <div class="contact-info">
+          <h5 class="contact-title">Hire Me</h5>
+          <p>281-513-7148<br>
+            c.monee.davidson@gmail.com
+          </p>
+        </div>
+
+        <div class="contact-info social-platform">
+          <h5 class="contact-title">Follow Me</h5>
+          <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/classiedavidson/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Classied" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-info">
+          <h5 class="contact-title">Meet Me</h5>
+          <p>Sugarland, TX</p>
+          <p>Let's talk over coffee!</p>
+
+        </div>
+      </div>
+      <p class="copyright">Copyright
+        <script>document.write(newDate().getFullYear())</script> 2023| Classie Davidson
+      </p>
+    </div>
+  </footer>
+
+  <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
