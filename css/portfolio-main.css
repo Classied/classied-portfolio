@@ -300,6 +300,12 @@ nav #contact-link {
   padding: 10px 10px;
 }
 
+.home-avatar figure {
+  width: 60%;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
 header h1 {
   width: 100%;
 }
