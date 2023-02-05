@@ -164,9 +164,10 @@ h5 {
 
 .skills-wrapper p,
 .tool-wrapper p {
-  background-color: #e9b14c;
+  background-color: #4ed55f;
   margin: 20px 0;
   padding: 15px 0;
+  font-weight: bold;
 }
 
 p,
@@ -295,7 +296,7 @@ header nav ul li {
 }
 
 nav #contact-link {
-  background-color: #e9b14c;
+  background-color: #4ed55f;
   border-radius: 30px;
   padding: 10px 10px;
 }
@@ -881,7 +882,7 @@ footer .coffee-icon i {
   }
 
   nav #contact-link:hover {
-    background-color: #f8d697;
+    background-color: #88ec95;
     color: #453e4f;
   }
 
