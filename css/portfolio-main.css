@@ -377,8 +377,14 @@ header h2 {
   width: 100%;
 }
 
-#profile-image {
-  width: 90%
+.about-avatar{
+  display: flex;
+  justify-content: center;
+}
+
+.about-avatar figure{
+  width: 90%;
+  margin-bottom: 10px;
 }
 
 #about h3,
@@ -588,11 +594,11 @@ footer .coffee-icon i {
   }
 
   .about-info h3 {
-    margin: 50px 0 80px 0;
+    margin: 50px 0 50px 0;
   }
 
   .about-info h4 {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
   .about-text {
@@ -607,8 +613,13 @@ footer .coffee-icon i {
     margin-bottom: 30px;
   }
 
+
   footer {
     padding: 100px 0;
+  }
+
+  #contact h3{
+margin-bottom: 15px;
   }
 
   .portfolio-header {
@@ -650,7 +661,6 @@ footer .coffee-icon i {
 
   .home-avatar figure {
     width: 55%;
-    margin-left: 145px;
     margin-top: 70px;
   }
 
@@ -696,8 +706,8 @@ footer .coffee-icon i {
     justify-content: center;
   }
 
-  #about figure {
-    width: 60%;
+  .about-avatar figure {
+    width: 65%;
   }
 
   .about-info h4 {
@@ -746,11 +756,10 @@ footer .coffee-icon i {
 
   .home-avatar figure {
     width: 35%;
-     margin: 50px 0 5px 275px;
    }
 
   .about-info h3 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -785,8 +794,9 @@ footer .coffee-icon i {
   }
 
   .about-info h3 {
-    font-size: 3rem;
-    text-align: left;
+    font-size: 3.25rem;
+    /* text-align: left; */
+
   }
 
   .about-info h4 {
@@ -828,13 +838,14 @@ footer .coffee-icon i {
   }
 
   .about-info h3 {
-    margin: 0;
+    margin-top: 40px;
   }
 
   .about-info h4 {
     margin: 40px 0;
   }
 
+  
   .about-text {
     margin: 0 0 30px 0;
   }
@@ -903,7 +914,7 @@ footer .coffee-icon i {
 
   .home-avatar figure {
     width: 40%;
-    margin: 45px 0 15px 300px;
+    margin-bottom: 25px;
   }
 
   .home-title h2 {
@@ -924,13 +935,18 @@ footer .coffee-icon i {
     justify-content: space-between;
   }
 
-  #about figure {
-    width: 35%;
-    margin-top: 0;
+  .about-avatar {
+    width: 100%;
+      /* margin-top: 25px; */
+      justify-content: center;
   }
 
+  .about-avatar figure{
+    width: 45%;
+    }
+
   .about-info {
-    width: 60%;
+    width: 100%;
   }
 
   footer .content-wrapper {
