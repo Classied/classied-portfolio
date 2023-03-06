@@ -795,7 +795,7 @@ margin-bottom: 15px;
 
   .about-info h3 {
     font-size: 3.25rem;
-    /* text-align: left; */
+    
 
   }
 
@@ -937,7 +937,6 @@ margin-bottom: 15px;
 
   .about-avatar {
     width: 100%;
-      /* margin-top: 25px; */
       justify-content: center;
   }
 
